@@ -1,4 +1,4 @@
-package com.yuxi.projectdemo.wechat.DAO;
+package com.yuxi.projectdemo.wechat.dao;
 
 import com.yuxi.projectdemo.wechat.dataObject.ProductCategory;
 import org.junit.Assert;
@@ -12,8 +12,6 @@ import javax.transaction.Transactional;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

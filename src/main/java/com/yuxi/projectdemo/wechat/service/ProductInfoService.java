@@ -1,6 +1,7 @@
 package com.yuxi.projectdemo.wechat.service;
 
 import com.yuxi.projectdemo.wechat.dataObject.ProductInfo;
+import com.yuxi.projectdemo.wechat.dto.CartDTO;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,8 +20,10 @@ public interface ProductInfoService {
 
     ProductInfo save(ProductInfo productInfo);
 
-    /** add inventory */
+    /** increase inventory */
+    void increaseInventory(List<CartDTO> cartDTOList);
 
     /** delete inventory*/
+    void decreaseInventory(List<CartDTO> cartDTOList);
 
 }

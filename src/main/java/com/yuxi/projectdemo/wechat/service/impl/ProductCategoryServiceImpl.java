@@ -1,6 +1,6 @@
 package com.yuxi.projectdemo.wechat.service.impl;
 
-import com.yuxi.projectdemo.wechat.DAO.ProductCategoryRepository;
+import com.yuxi.projectdemo.wechat.dao.ProductCategoryRepository;
 import com.yuxi.projectdemo.wechat.dataObject.ProductCategory;
 import com.yuxi.projectdemo.wechat.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;

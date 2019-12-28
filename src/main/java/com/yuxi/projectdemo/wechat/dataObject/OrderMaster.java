@@ -7,8 +7,10 @@ import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -37,4 +39,9 @@ public class OrderMaster {
     private Date createTime;
 
     private Date updateTime;
+
+    //@Transient
+    //This annotation is when there's no such a field in the database
+    //private List<OrderDetail> orderDetailList;
+    //Note: to make create order more convenient, then change it to a new DTO class
 }

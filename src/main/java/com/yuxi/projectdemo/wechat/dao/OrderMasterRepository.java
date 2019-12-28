@@ -1,4 +1,4 @@
-package com.yuxi.projectdemo.wechat.DAO;
+package com.yuxi.projectdemo.wechat.dao;
 
 import com.yuxi.projectdemo.wechat.dataObject.OrderMaster;
 import org.springframework.data.domain.Page;
