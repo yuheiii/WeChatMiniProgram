@@ -11,4 +11,9 @@ public class ProjectException extends RuntimeException {
         //Note: RuntimeException has message field, so we pass the enum message to super constructor
         this.code = resultEnum.getCode();
     }
+
+    public ProjectException(Integer code, String messgae) {
+        super(messgae);
+        this.code = code;
+    }
 }
