@@ -11,4 +11,10 @@ spring:
 
 server:
   servlet:
-    context-path: /wechat
+    context-path: /wechatminiprogram
+
+wechat:
+  mpAppId: xxxxx
+  mpAppSecret: xxxxxxxxxxx
+
+

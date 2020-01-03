@@ -27,6 +27,8 @@ public enum ResultEnum {
 
     ORDER_OWNER_ERROR(19, "this order doesn't belong to this user"),
 
+    WX_MP_ERROR(20, "wechat mp error"),
+
     ;
 
     private Integer code;
